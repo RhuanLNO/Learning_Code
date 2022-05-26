@@ -17,7 +17,7 @@ class ProgDecisao
         {
             case '1':
             {
-                if(num % 0 == 0)
+                if(num % 2 == 0)
                 {
                     msg = msg + num + " eh par.\n";
                 }
